@@ -146,7 +146,7 @@ void setup()
 
   digitalWrite(led, LOW);
   Serial.begin(9600);
-  myservo.attach(9)
+  myservo.attach(9);
   flag = true;
   a = 4;
   b = 0;
